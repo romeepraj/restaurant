@@ -1,0 +1,37 @@
+<div class="container marketing">
+<h1>Menu</h1>
+<hr class="featurette-divider">
+<h2>Breakfast</h2>
+<div ng-repeat= "menu in menus.breakfast">
+	
+	<div class="row">
+		<div class="col-md-6">{{menu.item}}</div>
+		<div class="col-md-6">{{menu.price | currency}}</div>
+	</div>
+</div>
+<h2>Starter</h2>
+<div ng-repeat= "menu in menus.starter">
+	
+	<div class="row">
+		<div class="col-md-6">{{menu.item}}</div>
+		<div class="col-md-6">{{menu.price | currency}}</div>
+	</div>
+</div>
+<h2>Lunch</h2>
+<div ng-repeat= "menu in menus.lunch">
+	
+	<div class="row">
+		<div class="col-md-6">{{menu.item}}</div>
+		<div class="col-md-6">{{menu.price | currency}}</div>
+	</div>
+</div>
+<h2>Dinner</h2>
+<div ng-repeat= "menu in menus.dinner">
+	
+	<div class="row">
+		<div class="col-md-6">{{menu.item}}</div>
+		<div class="col-md-6">{{menu.price | currency}}</div>
+	</div>
+</div>
+<hr class="featurette-divider">
+</div>

@@ -1,0 +1,93 @@
+{
+  "breakfast": [
+    {
+      "item": "Sandwitch",
+      "price": 3
+    },
+    {
+      "item": "Bagel",
+      "price": 2
+    },
+    {
+      "item": "Croissant",
+      "price": 3
+    },
+    {
+      "item": "Tea",
+      "price": 2
+    },
+    {
+      "item": "Coffee",
+      "price": 2
+    }
+  ],
+   "starter": [
+    {
+      "item": "Mango Salad",
+      "price": 10
+    },
+    {
+      "item": "Shrimp Salad",
+      "price": 8
+    },
+    {
+      "item": "Buffalo wings",
+      "price": 8
+    },
+    {
+      "item": "Chicken nuggets",
+      "price": 5
+    },
+    {
+      "item": "Fries",
+      "price": 3
+    }
+  ],
+ 
+  "lunch": [
+    {
+      "item": "Pho noodle",
+      "price": 10
+    },
+    {
+      "item": "Pasta",
+      "price": 8
+    },
+    {
+      "item": "Beef bowl noodle",
+      "price": 8
+    },
+    {
+      "item": "Chicken Sandwitch",
+      "price": 5
+    },
+    {
+      "item": "Chicken Burger",
+      "price": 8
+    }
+  ],
+
+  "dinner": [
+    {
+      "item": "Chicken on rice",
+      "price": 10
+    },
+    {
+      "item": "Pork on rice",
+      "price": 8
+    },
+    {
+      "item": "Pizza",
+      "price": 8
+    },
+    {
+      "item": "Chicken Tikki Masala Rice",
+      "price": 8
+    },
+    {
+      "item": "Cheesy beef rice",
+      "price": 8
+    }
+  ]
+ 
+}

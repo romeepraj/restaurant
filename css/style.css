@@ -1,0 +1,73 @@
+body{
+	color:#fff;
+}
+h1,h2,h3,h4{
+	color:#fe9703;
+}
+.btn-default, .btn-primary {
+    color: #f5f5f5;
+    background-color: #fe9703;
+    border-color:#fe9703 ;
+}
+.btn-default:hover, .btn-primary:hover{
+background-color: #fe9703;	
+border-color:#000 ;
+}
+.ng-scope{
+	background: #051c2a;
+}
+.marketing{
+	padding-top:50px;
+}
+.text-muted{
+	color:#f5f5f5;
+}
+.featurette-heading{
+	font-size:35px;
+}
+.navbar-inverse {
+    background-color: #072335;
+    
+}
+.featurette-divider {
+    margin: 50px 0;
+}
+.angular-google-map-container {
+        height: 400px;
+}
+.gallery{
+	margin-bottom:20px;
+}
+div[class^=overlay] {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #fe9703;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container1:hover div[class^=overlay] {
+  width: 100%;
+  left: 0;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+footer{
+	background: #072335;
+	border:1px solid #080808;
+	padding:10px 0px;
+}

@@ -1,0 +1,19 @@
+<div class="container marketing">
+	<h1>Gallery</h1>
+	<hr class="featurette-divider">
+	<div class="row">
+		<div ng-repeat= "gallery in gallerys">
+			
+			<div class="col-md-4 gallery"> 
+			<div class="container1">
+				<img ng-src="images/{{gallery.item}}" class="img-responsive img_hover_{{gallery.id}}">
+				<div class="overlay_{{gallery.id}}">
+				    <div class="text">{{gallery.name}}</div>
+				</div>
+			</div>
+			</div>
+				
+		</div>
+	</div>
+	<hr class="featurette-divider">
+</div>
